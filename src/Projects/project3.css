@@ -1,0 +1,166 @@
+body{
+    color: #102a42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box{
+    width:100px;
+    height:4px;
+    background-color:#49a6e9 ;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+main{
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    display: flex;
+}
+.icon{
+  background-color: #49a6e9;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 20%;
+  top: 10%;  
+}
+.Icon{
+    color: #ffffff;
+    font-size: 18px;
+}
+.image{
+    width: 150px;
+    height: 140px;
+    background-color: #49a6e9;
+    border-radius: 100px;
+    
+    
+}
+img{
+    width: 140px;
+    height: 140px;
+    border:none;
+    border-radius: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 18px;
+    color: #8bcbf9;
+    font-weight:lighter;
+    margin-top: 5px;
+}
+p{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    color: #617da4;
+}
+.button{
+   color: #8bcbf9;
+   display: flex;
+   
+   
+}
+
+.prev{
+    margin-right: 20px;
+    font-size: 24px;
+    transition: all 500ms ease;
+    
+}
+.prev:hover{
+    color:#49a6e9 ;
+
+}
+
+.nxt:hover{
+    color:#49a6e9 ;
+}
+.nxt{
+    margin-left: 20px;
+    transition: all 500ms ease;  
+    font-size: 24px;
+    
+}
+
+.randomBtn{
+    padding: 20px;
+}
+
+.btn-random{
+   width: 150px;
+   height: 30px;
+   background-color:#ebf7ff ;
+   color:#49a6e9 ;
+   border: none;
+   border-radius: 5px;
+   transition: all 500ms ease;
+
+}
+
+.btn-random:hover{
+    color: #000000;
+    background-color:#49a6e9 ;
+}
+
+
+@media (min-width:800px){
+
+    main{
+        height:auto;
+        width:500px;
+        
+        
+         
+    }
+   
+}
+
+@media(max-width:800px ){
+    main{
+        height:auto;
+        max-width:400px;
+        margin-top:30px;
+        margin-left:10px;
+        margin-right:10px; 
+    }
+      
+  
+}
+
+
+
+
+
